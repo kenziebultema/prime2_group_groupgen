@@ -23,7 +23,11 @@
     <button class="ten" ng-click="select(10)">10</button>
     <button class="eleven" ng-click="select(11)">11</button>
 
-    <button class="refresh" ng-click="shuffle()">Refresh</button>
+    <button class="refresh" ng-click="select(0)">Refresh</button>
+
+    <p ng-repeat="student in students">
+        {{student.name}}
+    </p>
 
 
 </body>
