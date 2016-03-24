@@ -12,6 +12,7 @@
 
 </head>
 <body ng-controller="mainController">
+    <!-- <button ng-repeat="button in buttonArray"></button> -->
     <button class="two" ng-click="select(2)">2</button>
     <button class="three" ng-click="select(3)">3</button>
     <button class="four" ng-click="select(4)">4</button>
@@ -25,8 +26,8 @@
 
     <button class="refresh" ng-click="select(0)">Refresh</button>
 
-    <p ng-repeat="student in students">
-        {{student.name}}
+    <p ng-repeat="student in groupArray">
+        {{student}}
     </p>
 
 

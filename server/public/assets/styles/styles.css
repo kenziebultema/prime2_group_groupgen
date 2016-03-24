@@ -23,4 +23,13 @@ body {
  text: black;
  text-align: center;
  background-color: #a6a6a6 ;
+ display: block;
+ margin-top: 5px;
+}
+.two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover, .ten:hover, .eleven:hover {
+ background-color: #cfcfcf ;
+}
+
+.refresh:hover {
+ background-color: tomato;
 }
